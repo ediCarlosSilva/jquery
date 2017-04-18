@@ -1,0 +1,18 @@
+span {
+    border: 1px solid black;
+    background: #ccc;
+    padding: 10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span:hover {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    background: black;
+}
+
+img {
+    width: 300px;
+    heigth: 300px;
+}

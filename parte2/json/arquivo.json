@@ -1,0 +1,1 @@
+{ "ListarAlunosResult": { "Alunos": [{ "Matricula": 4, "Nome": "edi", "P1": 3.00, "P2": 9.00 }, { "Matricula": 1, "Nome": "João da Silva", "P1": 4.00, "P2": 9.00 }, { "Matricula": 2, "Nome": "Maria de Oliveira", "P1": 8.00, "P2": 7.00 }, { "Matricula": 3, "Nome": "Pedro Henrique", "P1": 10.00, "P2": 10.00 }], "Mensagens": [{ "Descricao": "OK", "TipoMensagem": 1 }] } }

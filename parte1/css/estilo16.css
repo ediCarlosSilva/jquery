@@ -1,0 +1,28 @@
+#mensagem {
+    border: 5px dashed black;
+    background: #ccc;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#eventos:hover {
+    background: #000;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+    display: block;
+    height: 50px;
+    width: auto;
+    background: #ccc;
+    color: black;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span:hover {
+    color: white;
+    background: black;
+}
