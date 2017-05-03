@@ -4,7 +4,7 @@ $(document).ready(function() {
     //filhos do elemento
     $("li > ul").css("color", "red");
     //irmaos. apenas o primeiro irmao.
-    $("#Item1_1 + li").css("color", "blue");
+    // $("#Item1_1 + li").css("color", "blue");
     //todos os irmaos do id Item1_1
     $("#Item1_1 ~ li").css("color", "blue");
     /*

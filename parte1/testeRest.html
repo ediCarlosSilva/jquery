@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>jQuery Aula 3</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/estilo20.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="js/jquery-3.2.0.js"></script>
+    <!--<script type="text/javascript">
+        $(document).ready(function() {
+            $.ajax({
+                type: "GET",
+                url: "http://localhost:49210/ProductRESTService.svc/GetProductList/",
+                dataType: "xml",
+                success: function(xml) {
+                    console.log(xml);
+                    $(xml).find('Product').each(function() {
+                        var id = $(this).find('ProductId').text();
+                        var name = $(this).find('Price').text();
+                        var price = $(this).find('Price').text();
+                        var category = $(this).find('CategoryName').text();
+                        $('<tr><td>' + id + '</td><td>' + name + '</td><td>' + price + '</td><td>' +
+                            category + '</td></tr>').appendTo('#products');
+                    });
+                },
+                error: function(xhr) {
+                    alert(xhr.responseText);
+                }
+            });
+        });
+    </script>-->
+</head>
+
+<body>
+    <table border="1" data-="products">
+        <!--Make a Header Row-->
+        <tr>
+            <td><b>Product Id</b></td>
+            <td><b>Name</b></td>
+            <td><b>Price</b></td>
+            <td><b>Category</b></td>
+        </tr>
+
+    </table>
+</body>
+
+
+</html>

@@ -8,7 +8,9 @@ $(document).ready(function() {
         });
         $("body").append(img);
 
-        var ul = $("<ul />").append($("<li/>").append("Programador de interface WEB."));
+        var ul = $("<ul />")
+            .append($("<li/>")
+                .append("Programador de interface WEB."));
 
         $("body").append(ul).append(img);
 
